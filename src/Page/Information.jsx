@@ -1,3 +1,5 @@
+import Clients from "./Clients";
+
 export default function Information() {
   const heading = "Make remote work";
 
@@ -8,6 +10,7 @@ export default function Information() {
       <h1>{heading}</h1>
       <h3>{details}</h3>
       <button>Learn More</button>
+      <Clients />
     </div>
   );
 }
